@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/selectMenu"
+        android:icon="@android:drawable/ic_dialog_map"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_ft_to_m"
+        android:title="Feet to Meters" />
+    <item
+        android:id="@+id/menu_item_in_cm"
+        android:title="@string/inches_to_cm" />
+    <item
+        android:id="@+id/menu_lbs_to_g"
+        android:title="Pounds to Grams" />
+    <item
+        android:id="@+id/menu_mi_to_km"
+        android:title="Miles to Kilometers" />
+</menu>
